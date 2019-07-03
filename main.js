@@ -3058,9 +3058,7 @@ var NotificationComponent = /** @class */ (function () {
     }
     NotificationComponent.prototype.ngOnInit = function () { };
     __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"])('class')
-        // tslint:disable-next-line:max-line-length
-        ,
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"])('class'),
         __metadata("design:type", Object)
     ], NotificationComponent.prototype, "classes", void 0);
     __decorate([
@@ -3135,9 +3133,7 @@ var QuickActionComponent = /** @class */ (function () {
     }
     QuickActionComponent.prototype.ngOnInit = function () { };
     __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"])('class')
-        // tslint:disable-next-line:max-line-length
-        ,
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["HostBinding"])('class'),
         __metadata("design:type", Object)
     ], QuickActionComponent.prototype, "classes", void 0);
     __decorate([
@@ -3516,9 +3512,7 @@ var UserProfileComponent = /** @class */ (function () {
         this.authService.logout(true);
     };
     __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"])('class')
-        // tslint:disable-next-line:max-line-length
-        ,
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"])('class'),
         __metadata("design:type", Object)
     ], UserProfileComponent.prototype, "classes", void 0);
     __decorate([
@@ -9192,11 +9186,11 @@ var UtilsService = /** @class */ (function () {
      * @see https://stackoverflow.com/a/34749873/1316921
      */
     UtilsService.prototype.mergeDeep = function (target) {
+        var _a, _b;
         var sources = [];
         for (var _i = 1; _i < arguments.length; _i++) {
             sources[_i - 1] = arguments[_i];
         }
-        var _a, _b;
         if (!sources.length) {
             return target;
         }
